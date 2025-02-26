@@ -5,7 +5,7 @@ function agregarAmigo() {
     let nombre = input.value.trim(); // Elimina espacios en blanco
 
     if (nombre === "") {
-        alert("⚠️ Por favor, inserte un nombre.");
+        alert("Por favor, inserte un nombre.");
         return;
     }
 
@@ -27,7 +27,7 @@ function sortearAmigo() {
     let resultado = document.getElementById("resultado");
 
     if (amigos.length === 0) {
-        resultado.innerHTML = `<li class="error">⚠️ No hay amigos en la lista.</li>`;
+        resultado.innerHTML = `<li class="error" No hay amigos en la lista.</li>`;
         return;
     }
 
