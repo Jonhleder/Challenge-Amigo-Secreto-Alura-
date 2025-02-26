@@ -27,7 +27,7 @@ function sortearAmigo() {
     let resultado = document.getElementById("resultado");
 
     if (amigos.length === 0) {
-        resultado.innerHTML = `<li class="error">⚠️ No hay amigos en la lista.</li>`;
+        resultado.innerHTML = `<li class="error"> No hay amigos en la lista.</li>`;
         return;
     }
 
